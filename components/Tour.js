@@ -32,6 +32,7 @@ const Tour = () => {
         steps={TOUR_STEPS}
         continuous={true}
         showSkipButton={true}
+        showProgress={true}
         styles={{
           tooltipContainer: {
               textAlign: "left"
