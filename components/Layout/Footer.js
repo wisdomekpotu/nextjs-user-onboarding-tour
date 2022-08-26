@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../../public/assets/Logo.png";
+import Logo from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <Image src={Logo} className="h-8 w-auto mb-6" /> 
           <p className="mb-4">
-            <strong className="font-medium">Fake Logo</strong> is a private
+            <strong className="font-medium">LaslesVPN</strong> is a private
             virtual network that has unique features and has high security.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
